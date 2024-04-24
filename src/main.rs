@@ -1,3 +1,5 @@
+pub mod algorithms;
+
 fn main() {
-    println!("Hello, world!");
+    println!("{}", algorithms::fibonacci(2));
 }
